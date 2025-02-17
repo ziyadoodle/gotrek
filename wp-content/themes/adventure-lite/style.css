@@ -774,6 +774,7 @@ body.search .transheader{
   float: right;
   overflow: hidden;
   font-size: 16px;
+  display: none;
 }
 
 #sidebar .wp-block-search__input{
@@ -1836,10 +1837,12 @@ body.wp-custom-logo .site-description{
 	width:100%;
 	text-align:center;
 	position:relative;
-	min-height:410px;
+	min-height:310px;
 	max-height:450px;
 	overflow:hidden;
-	background-color:#545556;
+	background-image: url("https://images.unsplash.com/uploads/141148589884100082977/a816dbd7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	background-size: cover;
+	background-position: center;
 }
 
 .inner-banner-thumb img{
@@ -1872,7 +1875,7 @@ body.wp-custom-logo .site-description{
 	margin-bottom:0px;
 	padding:0;
 	position:absolute;
-	top:60%;
+	top:50%;
 	left:0;
 	right:0;
 	z-index:99;
